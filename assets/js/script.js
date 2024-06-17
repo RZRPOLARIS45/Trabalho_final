@@ -16,7 +16,7 @@ document.getElementById('planForm').addEventListener('submit', function(event) {
     let fatorComorbidade;
     if (imc < 18.5) {
         fatorComorbidade = 10;
-    } else if (imc < 24.9) {
+    } else if (imc < 25) {
         fatorComorbidade = 1;
     } else if (imc < 29.9) {
         fatorComorbidade = 6;
